@@ -198,6 +198,6 @@ O grupo deverá entregar:
 4. Prioridade de cada requisito;
 5. Critérios de aceitação;
 6. Exemplo de utilização;
-7. Identificação dos integrantes do grupo
+7. Identificação dos integrantes do grupo : Eduardo Brito
 
 **Próxima etapa:** os requisitos produzidos nesta ficha servirão de base para a identificação e especificação dos **casos de uso**.

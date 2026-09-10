@@ -50,7 +50,7 @@ Os principais motivos para sua criação são:
 
 ## 📍 Where (Onde será utilizado?)
 
-O sistema pode ser acessado em dispositivos conectados à internet, como:
+O sistema pode ser acessado por alunos da UDF em dispositivos conectados à internet, como:
 
 * Computadores;
 * Notebooks;

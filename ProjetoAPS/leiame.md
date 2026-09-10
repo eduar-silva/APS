@@ -42,7 +42,7 @@ Os principais motivos para sua criação são:
 
 
 * Arthur Miguel - https://github.com/thurzxdev
-* Artur Miguel Monteiro -
+* Artur Miguel Monteiro - https://github.com/arturmm-s
 * Eduardo Brito - https://github.com/eduar-silva 
 * Marcos Guilherme - https://github.com/guima-Eng
 

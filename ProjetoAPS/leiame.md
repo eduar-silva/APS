@@ -74,11 +74,10 @@ O sistema pode ser utilizado durante todo o período acadêmico, com foco especi
 
 # 🛠️ Tecnologias Utilizadas
 
-* Linguagem de Programação: *(definir conforme o projeto)*
-* Banco de Dados: *(definir conforme o projeto)*
-* Framework: *(definir conforme o projeto)*
-* Git e GitHub para versionamento
-
+* 
+* 
+* 
+* 
 ---
 
 # 🚀 Objetivos

@@ -1,13 +1,13 @@
 Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 
-# 📋 Projeto de APS [Nome do projeto]
+# 📋 Projeto de APS - Sistema de acolhida aos calouros da UDF
 
 ## Levantamento e Priorização de Requisitos
 
 **Etapa:** Levantamento de Requisitos (Utilizar a ficha dos requisitos levantados) 
 **Técnica de Priorização:** MoSCoW  
-**Data:** ______/______/______
-**Turma:** __________________________  
+**Data:** 10/09/2026
+**Turma:** Engenharia de Software UDF - D2 
 
 ---
 
@@ -15,10 +15,10 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 
 | Integrante | Nome |
 |---|---|
-| 1 | |
-| 2 | |
-| 3 | |
-| 4 | |
+| 1 | Arthur Miguel Pinheiro |
+| 2 | Artur Miguel Monteiro |
+| 3 | Eduardo Brito |
+| 4 | Marcos Guilherme |
 | 5 | |
 | 6 | |
 
@@ -27,10 +27,10 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 # 2. Identificação do Projeto
 
 **Nome do projeto:**  
-> Preencher aqui.
+>Sistema de acolhida aos calouros da UDF
 
 **Descrição resumida do projeto:**  
-> Apresente, em um pequeno parágrafo, o contexto do projeto e sua finalidade.
+> O Sistema de Acolhida aos Calouros da UDF foi desenvolvido com o objetivo de facilitar a integração dos novos estudantes à vida acadêmica, oferecendo informações relevantes, suporte inicial e orientação sobre os principais serviços e recursos disponíveis na instituição.
 
 ---
 
@@ -38,7 +38,7 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 
 ## 3.1 Qual problema será resolvido?
 
-> Descreva o problema identificado pelo grupo.  
+> O Problema identificado é a falta de instrução aos novos alunos (calouros)  
 > Neste momento, concentre-se no problema e não na tecnologia que será utilizada.
 
 **Resposta:**

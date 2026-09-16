@@ -20,7 +20,6 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 | 3 | Eduardo Brito |
 | 4 | Marcos Guilherme |
 | 5 | |
-| 6 | |
 
 ---
 
@@ -41,39 +40,25 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 > O Problema identificado é a falta de instrução aos novos alunos (calouros)  
 > Neste momento, concentre-se no problema e não na tecnologia que será utilizada.
 
-**Resposta:**
-
-> Preencher aqui.
-
 ---
 
 ## 3.2 Quem é afetado pelo problema?
 
-> Identifique os principais usuários, grupos ou organizações afetados.
-
-**Resposta:**
-
-> Preencher aqui.
+> Os principais usuários são alunos, tanto novos quanto veteranos, que precisam de orientações.
 
 ---
 
 ## 3.3 Como o problema é resolvido atualmente?
 
-> Explique como as pessoas realizam atualmente o processo ou atividade relacionada ao problema.
-
-**Resposta:**
-
-> Preencher aqui.
+> Guardas, funcionários e alunos da instituição são consultados para orientar.
 
 ---
 
 ## 3.4 Principais dificuldades encontradas
 
-Liste pelo menos três dificuldades observadas.
-
-1. 
-2. 
-3. 
+1. Perda de tempo e risco de atrasos nas primeiras aulas ou atendimentos por não saber onde fica cada setor.
+2. Escassez de pessoas disponíveis ou com tempo hábil para fornecer o suporte necessário no momento da dúvida.
+3. Falta de sinalização clara ou de mapas acessíveis pelo campus para a localização autônoma.
 
 ---
 
@@ -83,11 +68,7 @@ Descreva o resultado que o projeto pretende alcançar.
 
 Utilize como referência:
 
-> **Nosso projeto pretende [resultado] para [stakeholder], contribuindo para [benefício].**
-
-**Objetivo:**
-
-> Preencher aqui.
+> Nosso projeto pretende oferecer um acesso rápido, digital e centralizado a informações e localizações da instituição para os estudantes, contribuindo para eliminar a dependência exclusiva de consultas verbais a funcionários, evitar atrasos nas aulas, garantir uma transição mais organizada, eficiente e sem estresse para a vida acadêmica, e promover sua rápida adaptação ao campus com maior autonomia.
 
 ---
 
@@ -97,11 +78,11 @@ Identifique as pessoas, grupos ou organizações que possuem interesse ou partic
 
 | ID | Stakeholder | Papel | Necessidade/Interesse | Influência |
 |---|---|---|---|---|
-| ST01 | | | | Alta / Média / Baixa |
-| ST02 | | | | Alta / Média / Baixa |
-| ST03 | | | | Alta / Média / Baixa |
-| ST04 | | | | Alta / Média / Baixa |
-| ST05 | | | | Alta / Média / Baixa |
+| ST01 | Alunos Calouros | Usuário Principal | Obter orientações rápidas. | Alta |
+| ST02 | Alunos Veteranos | Usuário Secundário | Consulta a atualizações no campus. | Média |
+| ST03 | Funcionários Administrativos | Informante | Redução de dúvidas repetitivas no atendimento. | Média |
+| ST04 | Segurança do Campus | Informante de Rotas | Menos interrupções nas funções de segurança. | Baixa |
+| ST05 | Coordenação | Gestor Institucional | Melhoria na experiência inicial e retenção dos alunos. | Alta |
 
 ---
 
@@ -109,11 +90,11 @@ Identifique as pessoas, grupos ou organizações que possuem interesse ou partic
 
 **Stakeholder:**
 
-> Preencher aqui.
+> Alunos Calouros.
 
 **Por que ele foi considerado o principal stakeholder?**
 
-> Preencher aqui.
+> Porque representam o público que mais enfrenta barreiras de adaptação, dependendo exclusivamente de orientações presenciais e sofrendo com a desorientação nos primeiros dias.
 
 ---
 

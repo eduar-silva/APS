@@ -16,7 +16,7 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 | Integrante | Nome |
 |---|---|
 | 1 | Arthur Miguel Pinheiro |
-| 2 | Artur Miguel Monteiro |
+| 2 | [Artur Miguel Monteiro](https://github.com/arturmm-s) |
 | 3 | [Eduardo Brito](https://github.com/eduar-silva) |
 | 4 | Marcos Guilherme |
 | 5 | Daniel Gomes Lima |

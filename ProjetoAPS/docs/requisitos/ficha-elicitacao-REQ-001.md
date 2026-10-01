@@ -5,7 +5,7 @@
 **Instituição:** UDF Centro Universitário  
 **Grupo/integrantes:** [Arthur Miguel Pinheiro](https://github.com/thurzxdev) | [Artur Miguel Monteiro](https://github.com/arturmm-s) | [Eduardo Brito](https://github.com/eduar-silva) | Marcos Guilherme | Daniel Gomes Lima 
 
-**Turma:** D2 - Engenharia de Software  **Data:** 30/09/2026  **Versão:** 1.0
+**Turma:** D2 - Engenharia de Software  **Data:** 27/09/2026  **Versão:** 1.0
 
 ## 1. Identificação do projeto
 
@@ -19,11 +19,11 @@
 
 | Campo | Preenchimento |
 |---|---|
-| Stakeholder (nome ou papel) | Alunos da UDF, principalmente os °calouros° |
-| Relação com o projeto | Usuário, cliente, gestor, especialista ou outro. |
-| Contato ou setor (se aplicável) | |
-| Técnica e data da elicitação | Entrevista, observação, questionário, oficina ou análise documental; data. |
-| Responsável pelo registro | |
+| Stakeholder (nome ou papel) | ST01 — Alunos da UDF, principalmente os °calouros° |
+| Relação com o projeto | Usuário alvo: Aqueles que necessitam de uma informação de forma rápida e simples e que encontram dificuldades em consegui-las |
+| Contato ou setor (se aplicável) | Corpo discente da UDF (com foco principal nos calouros) |
+| Técnica e data da elicitação | Contexto e Observação do Problema (Setembro de 2026). |
+| Responsável pelo registro | Grupo do projeto (integrantes listados no cabeçalho). |
 
 ## 3. Requisito elicitado
 

@@ -19,7 +19,7 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 | 2 | [Artur Miguel Monteiro](https://github.com/arturmm-s) |
 | 3 | [Eduardo Brito](https://github.com/eduar-silva) |
 | 4 | [Marcos Guilherme](https://github.com/guima-Eng) |
-| 5 | Daniel Gomes Lima |
+| 5 | [Daniel Gomes Lima](https://github.com/DanielGomesSoftwer) |
 
 ---
 

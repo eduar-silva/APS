@@ -17,10 +17,17 @@ modelagens. Ferramentas Case de apoio ao desenho dos diagramas UML
 
 | Campo | Preenchimento |
 |---|---|
-| Nome do sistema | Sistema de Biblioteca |
-| Objetivo | Gerenciar cadastro de usuários, livros, empréstimos, devoluções e multas. |
-| Público-alvo | Alunos, bibliotecários e administradores. |
-| Responsável pelo levantamento | Grupo de estudantes |
+| Nome do sistema | Acolhida de calouros |
+| Objetivo | Recepcionar da melhor maneira os calouros |
+| Público-alvo | Calouros |
+| Responsável pelo levantamento | 
+| 1 | [Arthur Miguel Pinheiro](https://github.com/thurzxdev) |
+| 2 | [Artur Miguel Monteiro](https://github.com/arturmm-s) |
+| 3 | [Eduardo Brito](https://github.com/eduar-silva) |
+| 4 | [Marcos Guilherme](https://github.com/guima-Eng) |
+| 5 | [Daniel Gomes Lima](https://github.com/DanielGomesSoftwer) |
+
+
 | Versão | 1.0 |
 
 ---
@@ -29,65 +36,65 @@ modelagens. Ferramentas Case de apoio ao desenho dos diagramas UML
 
 > Requisitos funcionais descrevem **funcionalidades ou serviços que o sistema deve oferecer**.
 
-## RF01 — Cadastrar usuário
+## RF01 — Cadastrar calouro
 
 | Campo | Descrição |
 |---|---|
 | **Identificação** | RF01 |
-| **Descrição** | O sistema deve permitir que o bibliotecário cadastre usuários da biblioteca. |
+| **Descrição** | O sistema deve permitir que usuários autorizados cadastrem novos calouros. |
 | **Prioridade** | Alta |
-| **Critérios de aceitação** | 1. Deve permitir informar nome, matrícula, e-mail e telefone. 2. Deve impedir cadastro sem nome e matrícula. 3. Deve informar ao usuário quando o cadastro for concluído. |
-| **Exemplo** | O bibliotecário informa os dados de um aluno e seleciona **Cadastrar**. O sistema valida os dados e registra o novo usuário. |
+| **Critérios de aceitação** | 1. Deve permitir informar nome, matrícula, e-mail, telefone e curso. 2. Deve impedir cadastro sem nome e matrícula. 3. Deve impedir o cadastro de uma matrícula já existente. 4. Deve informar ao usuário quando o cadastro for concluído. |
+| **Exemplo** | O responsável informa os dados de um novo calouro e seleciona **Cadastrar**. O sistema valida os dados e registra o novo aluno. |
 
-## RF02 — Cadastrar livro
+## RF02 — Consultar informações do calouro
 
 | Campo | Descrição |
 |---|---|
 | **Identificação** | RF02 |
-| **Descrição** | O sistema deve permitir cadastrar livros disponíveis na biblioteca. |
+| **Descrição** | O sistema deve permitir que o calouro consulte suas informações cadastradas. |
 | **Prioridade** | Alta |
-| **Critérios de aceitação** | 1. Deve permitir informar título, autor, ISBN e quantidade disponível. 2. Deve impedir o cadastro de livro sem título. 3. Deve apresentar confirmação após o cadastro. |
-| **Exemplo** | O bibliotecário cadastra o livro *Engenharia de Software*, informa autor e ISBN, e o sistema registra o exemplar. |
+| **Critérios de aceitação** | 1. Deve permitir consultar nome, matrícula, e-mail, telefone e curso. 2. Deve apresentar os dados cadastrados do calouro. 3. Deve informar quando os dados não forem encontrados. |
+| **Exemplo** | O calouro acessa seu perfil e o sistema apresenta seus dados pessoais e acadêmicos cadastrados. |
 
-## RF03 — Realizar empréstimo
+## RF03 — Cadastrar atividade de acolhida
 
 | Campo | Descrição |
 |---|---|
 | **Identificação** | RF03 |
-| **Descrição** | O sistema deve permitir registrar o empréstimo de um livro para um usuário habilitado. |
+| **Descrição** | O sistema deve permitir que usuários autorizados cadastrem atividades de acolhida para os calouros. |
 | **Prioridade** | Alta |
-| **Critérios de aceitação** | 1. Deve verificar se o usuário está cadastrado. 2. Deve verificar a disponibilidade do livro. 3. Deve registrar usuário, livro, data do empréstimo e data prevista para devolução. 4. Deve atualizar a quantidade disponível. |
-| **Exemplo** | O bibliotecário seleciona o aluno e o livro. O sistema verifica a disponibilidade e registra o empréstimo. |
+| **Critérios de aceitação** | 1. Deve permitir informar nome da atividade, descrição, data, horário e local. 2. Deve impedir o cadastro sem nome, data e local. 3. Deve apresentar confirmação após o cadastro. |
+| **Exemplo** | O responsável cadastra uma palestra de boas-vindas, informa a data, o horário e o local, e o sistema registra a atividade. |
 
-## RF04 — Registrar devolução
+## RF04 — Consultar programação
 
 | Campo | Descrição |
 |---|---|
 | **Identificação** | RF04 |
-| **Descrição** | O sistema deve permitir registrar a devolução de um livro emprestado. |
+| **Descrição** | O sistema deve permitir que os calouros consultem a programação das atividades de acolhida. |
 | **Prioridade** | Alta |
-| **Critérios de aceitação** | 1. Deve localizar o empréstimo. 2. Deve registrar a data de devolução. 3. Deve atualizar a disponibilidade do livro. 4. Deve verificar se houve atraso. |
-| **Exemplo** | O bibliotecário registra a devolução. O sistema atualiza o estoque e verifica se o prazo foi cumprido. |
+| **Critérios de aceitação** | 1. Deve permitir visualizar as atividades cadastradas. 2. Deve apresentar nome, data, horário e local de cada atividade. 3. Deve informar quando não houver atividades disponíveis. |
+| **Exemplo** | O calouro acessa a programação e verifica as atividades de acolhida que acontecerão durante a semana. |
 
-## RF05 — Calcular multa
+## RF05 — Realizar inscrição em atividade
 
 | Campo | Descrição |
 |---|---|
 | **Identificação** | RF05 |
-| **Descrição** | O sistema deve calcular a multa quando um livro for devolvido após o prazo estabelecido. |
-| **Prioridade** | Média |
-| **Critérios de aceitação** | 1. Deve comparar a data prevista com a data efetiva de devolução. 2. Deve calcular o valor conforme a regra definida pela biblioteca. 3. Deve registrar a multa vinculada ao usuário. |
-| **Exemplo** | Um livro deveria ser devolvido em 10/09 e foi devolvido em 13/09. O sistema identifica o atraso e calcula a multa correspondente. |
+| **Descrição** | O sistema deve permitir que os calouros realizem inscrição nas atividades de acolhida disponíveis. |
+| **Prioridade** | Alta |
+| **Critérios de aceitação** | 1. Deve permitir selecionar uma atividade disponível. 2. Deve registrar a inscrição do calouro. 3. Deve impedir inscrição em atividade que não esteja disponível. 4. Deve informar ao usuário quando a inscrição for concluída. |
+| **Exemplo** | O calouro seleciona uma palestra de boas-vindas e confirma sua inscrição. O sistema registra a participação na atividade. |
 
-## RF06 — Consultar disponibilidade de livro
+## RF06 — Registrar presença em atividade
 
 | Campo | Descrição |
 |---|---|
 | **Identificação** | RF06 |
-| **Descrição** | O sistema deve permitir consultar se determinado livro está disponível para empréstimo. |
+| **Descrição** | O sistema deve permitir registrar a presença dos calouros nas atividades de acolhida. |
 | **Prioridade** | Média |
-| **Critérios de aceitação** | 1. Deve permitir pesquisar por título, autor ou ISBN. 2. Deve informar a quantidade disponível. 3. Deve indicar quando não houver exemplares disponíveis. |
-| **Exemplo** | O usuário pesquisa um livro pelo título e o sistema informa que existem dois exemplares disponíveis. |
+| **Critérios de aceitação** | 1. Deve localizar o calouro cadastrado. 2. Deve registrar a presença na atividade. 3. Deve impedir o registro para um calouro inexistente. 4. Deve permitir consultar os participantes da atividade. |
+| **Exemplo** | Durante uma palestra, o responsável localiza o calouro no sistema e registra sua presença na atividade. |
 
 ---
 
@@ -102,18 +109,18 @@ modelagens. Ferramentas Case de apoio ao desenho dos diagramas UML
 | **Identificação** | RNF01 |
 | **Descrição** | O sistema deve controlar o acesso às funcionalidades conforme o perfil do usuário. |
 | **Prioridade** | Alta |
-| **Critérios de aceitação** | 1. Usuários devem autenticar-se antes de acessar funções restritas. 2. Funcionalidades administrativas devem estar disponíveis somente a perfis autorizados. |
-| **Exemplo** | Um aluno não pode acessar a funcionalidade de cadastro de livros, disponível ao bibliotecário. |
+| **Critérios de aceitação** | 1. Usuários devem autenticar-se antes de acessar funções restritas. 2. Funcionalidades administrativas devem estar disponíveis somente a perfis autorizados. 3. Os dados dos calouros devem ser protegidos contra acesso não autorizado. |
+| **Exemplo** | Um calouro não pode acessar a funcionalidade de cadastro de atividades, disponível somente para usuários autorizados. |
 
 ## RNF02 — Usabilidade
 
 | Campo | Descrição |
 |---|---|
 | **Identificação** | RNF02 |
-| **Descrição** | A interface deve apresentar informações e comandos de forma clara e consistente. |
+| **Descrição** | A interface deve apresentar informações e comandos de forma clara, simples e consistente. |
 | **Prioridade** | Alta |
 | **Critérios de aceitação** | 1. Os campos devem possuir rótulos claros. 2. Mensagens de erro devem orientar o usuário. 3. As ações principais devem ser facilmente identificáveis. |
-| **Exemplo** | Ao deixar a matrícula vazia, o sistema informa que o campo é obrigatório. |
+| **Exemplo** | Ao deixar a matrícula vazia durante o cadastro, o sistema informa que o campo é obrigatório. |
 
 ## RNF03 — Desempenho
 
@@ -123,27 +130,27 @@ modelagens. Ferramentas Case de apoio ao desenho dos diagramas UML
 | **Descrição** | Consultas comuns devem apresentar resposta em tempo adequado para o uso cotidiano. |
 | **Prioridade** | Média |
 | **Critérios de aceitação** | Em condições normais de operação, consultas simples devem apresentar o resultado em até 3 segundos. |
-| **Exemplo** | Ao pesquisar um livro pelo título, o resultado deve ser apresentado em até 3 segundos. |
+| **Exemplo** | Ao consultar a programação de atividades, o resultado deve ser apresentado em até 3 segundos. |
 
 ## RNF04 — Disponibilidade
 
 | Campo | Descrição |
 |---|---|
 | **Identificação** | RNF04 |
-| **Descrição** | O sistema deve estar disponível durante o horário de funcionamento da biblioteca. |
+| **Descrição** | O sistema deve estar disponível durante o período de acolhida dos calouros. |
 | **Prioridade** | Alta |
 | **Critérios de aceitação** | O sistema deve permanecer acessível durante o período definido pela instituição, exceto em manutenções previamente programadas. |
-| **Exemplo** | Durante o horário de atendimento, o bibliotecário consegue realizar empréstimos sem indisponibilidade não planejada. |
+| **Exemplo** | Durante a semana de acolhida, os calouros conseguem acessar o sistema para consultar atividades e realizar inscrições. |
 
 ## RNF05 — Integridade dos dados
 
 | Campo | Descrição |
 |---|---|
 | **Identificação** | RNF05 |
-| **Descrição** | O sistema deve preservar a consistência dos dados registrados. |
+| **Descrição** | O sistema deve preservar a consistência dos dados registrados dos calouros e das atividades. |
 | **Prioridade** | Alta |
-| **Critérios de aceitação** | 1. Não deve permitir empréstimo de livro inexistente. 2. Não deve permitir quantidade de exemplares negativa. 3. Um empréstimo deve estar associado a usuário e livro válidos. |
-| **Exemplo** | Ao tentar emprestar um livro sem exemplares disponíveis, o sistema bloqueia a operação e informa o motivo. |
+| **Critérios de aceitação** | 1. Não deve permitir duas matrículas iguais. 2. Não deve permitir inscrição em atividade inexistente. 3. Um registro de presença deve estar associado a um calouro e a uma atividade válidos. |
+| **Exemplo** | Ao tentar cadastrar um calouro com uma matrícula já existente, o sistema bloqueia o cadastro e informa o motivo. |
 
 ---
 
@@ -200,5 +207,3 @@ O grupo deverá entregar:
 5. Critérios de aceitação;
 6. Exemplo de utilização;
 7. Identificação dos integrantes do grupo: (3 a 6 integrantes)
-
-**Próxima etapa:** os requisitos produzidos nesta ficha servirão de base para a iden

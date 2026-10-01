@@ -44,13 +44,12 @@
 | RN-002 | Validação de Alocação: O sistema não deve permitir que duas turmas diferentes sejam alocadas na mesma sala no mesmo dia e horário. (Associado a: RF02) | Setor de Horários e Ensalamento / Coordenação Acadêmica |
 | RN-003 | Permissão de Notificação: Apenas usuários cadastrados com o perfil "Administrador" ou "Coordenador" podem disparar comunicados para os estudantes. (Associado a: RF03) | Gestão Institucional / Coordenação |
 | RN-004 | Tempo de Resposta da Busca: O motor de busca por salas e blocos deve carregar as sugestões de auto-completar em menos de 1 segundo. (Associado a: RNF02) | Equipe de Desenvolvimento / Requisitos de Desempenho |
-> Descreva políticas, condições e limites do domínio. Caso nenhuma regra tenha sido identificada, registre “Não identificada nesta etapa”.
 
 ## 5. Prioridade
 
-**Classificação MoSCoW (marque uma):** [ ] Must have (essencial)  [ ] Should have (importante)  [ ] Could have (desejável)  [ ] Won't have nesta versão (fora do escopo atual)
+**Classificação MoSCoW (marque uma):** [ ] Must have (essencial)  [X] Should have (importante)  [ ] Could have (desejável)  [ ] Won't have nesta versão (fora do escopo atual)
 
-**Justificativa da prioridade:** ______________________________________________
+**Justificativa da prioridade:** O requisito é indispensável e constitui o núcleo da solução, sendo fundamental para resolver diretamente o problema central de localização, orientação ou segurança dos estudantes. Sem ele, o sistema perde sua utilidade principal e não atinge o objetivo de eliminar as principais dificuldades enfrentadas pelos calouros no campus.
 
 ## 6. Critérios de aceitação
 

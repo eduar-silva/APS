@@ -19,9 +19,9 @@
 
 | Campo | Preenchimento |
 |---|---|
-| Stakeholder (nome ou papel) | ST01 — Alunos da UDF, principalmente os °calouros° |
-| Relação com o projeto | Usuário alvo: Aqueles que necessitam de uma informação de forma rápida e simples e que encontram dificuldades em consegui-las |
-| Contato ou setor (se aplicável) | Corpo discente da UDF (com foco principal nos calouros) |
+| Stakeholder (nome ou papel) | ST01 — Alunos da UDF, principalmente os °calouros°. |
+| Relação com o projeto | Usuário alvo: Aqueles que necessitam de uma informação de forma rápida e simples e que encontram dificuldades em consegui-las. |
+| Contato ou setor (se aplicável) | Corpo discente da UDF (com foco principal nos calouros). |
 | Técnica e data da elicitação | Contexto e Observação do Problema (Setembro de 2026). |
 | Responsável pelo registro | Grupo do projeto (integrantes listados no cabeçalho). |
 

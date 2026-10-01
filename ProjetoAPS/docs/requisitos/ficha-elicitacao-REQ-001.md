@@ -29,12 +29,12 @@
 
 | Campo | Preenchimento |
 |---|---|
-| ID do requisito | REQ-001 (numeração sequencial). |
-| Necessidade relatada pelo stakeholder | Registre o que foi solicitado, de preferência com as palavras utilizadas na elicitação. |
-| Descrição consolidada | O sistema deve... (ação observável, objeto e condições relevantes). |
-| Justificativa ou benefício esperado | |
-| Tipo | Funcional / qualidade / restrição. |
-| Dependências ou dúvidas | |
+| ID do requisito | REQ-001 (refere ao RF-01 do levantamento de requisitos). |
+| Necessidade relatada pelo stakeholder | Permitir buscar e visualizar a localização geográfica interna de salas, blocos, laboratórios e setores.administrativos. |
+| Descrição consolidada | O sistema deve fornecer uma busca com visualização da planta interna dos campus como , salas, blocos, laboratórios e setores.administrativos. |
+| Justificativa ou benefício esperado | Eliminar a dependência exclusiva de consultas verbais a funcionários e guardas, reduzir o estresse na adaptação ao campus e agilizar a chegada dos estudantes aos locais corretos. |
+| Tipo | Funcional |
+| Dependências ou dúvidas | Depende da disponibilidade inicial de dados cadastrais corretos sobre a infraestrutura da instituição (inseridos via RF05). |
 
 ## 4. Regras de negócio
 

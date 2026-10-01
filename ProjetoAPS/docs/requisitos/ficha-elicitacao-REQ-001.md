@@ -11,7 +11,7 @@
 
 | Campo | Preenchimento |
 |---|---|
-| Nome do projeto | Sistema de acolhida aos calouros da UDF |
+| Nome do projeto | Sistema de acolhida aos calouros da UDF. |
 | Objetivo do projeto | O Sistema de Acolhida aos Calouros da UDF foi desenvolvido com o objetivo de facilitar a integração dos novos estudantes à vida acadêmica, oferecendo informações relevantes, suporte inicial e orientação sobre os principais serviços e recursos disponíveis na instituição. |
 | Contexto e escopo | O sistema permite que os calouros da UDF tenham acesso facilitado a informações sobre os campus, serviços disponíveis e situações comuns que podem ocorrer durante a rotina acadêmica. |
 

@@ -40,9 +40,10 @@
 
 | ID | Regra de negócio relacionada | Fonte ou responsável pela validação |
 |---|---|---|
-| RN-001 | | |
-| RN-002 | | |
-
+| RN-001 | Unicidade de Salas: Não pode haver duas salas cadastradas com o mesmo identificador (código/número) dentro do mesmo bloco. (Associado a: RF01, RF05) | Coordenação de Infraestrutura / Administrador do Sistema |
+| RN-002 | Validação de Alocação: O sistema não deve permitir que duas turmas diferentes sejam alocadas na mesma sala no mesmo dia e horário. (Associado a: RF02) | Setor de Horários e Ensalamento / Coordenação Acadêmica |
+| RN-003 | Permissão de Notificação: Apenas usuários cadastrados com o perfil "Administrador" ou "Coordenador" podem disparar comunicados para os estudantes. (Associado a: RF03) | Gestão Institucional / Coordenação |
+| RN-004 | Tempo de Resposta da Busca: O motor de busca por salas e blocos deve carregar as sugestões de auto-completar em menos de 1 segundo. (Associado a: RNF02) | Equipe de Desenvolvimento / Requisitos de Desempenho |
 > Descreva políticas, condições e limites do domínio. Caso nenhuma regra tenha sido identificada, registre “Não identificada nesta etapa”.
 
 ## 5. Prioridade

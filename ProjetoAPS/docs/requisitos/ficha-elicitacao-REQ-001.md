@@ -57,9 +57,10 @@ Escreva condições verificáveis que permitam decidir se o requisito foi atendi
 
 | ID | Dado/Quando | Então (resultado esperado) | Evidência ou forma de verificação |
 |---|---|---|---|
-| CA-01 | | | |
-| CA-02 | | | |
-| CA-03 | | | |
+| CA-01 | Dado que o usuário está na tela de protocolo. Quando cadastra um novo documento preenchendo todos os campos obrigatórios. | O sistema registra a produção/recepção e gera um número de protocolo único. | Mensagem de sucesso na interface exibindo o número do protocolo gerado. |
+| CA-02 | Dado que um documento está em tramitação. Quando o setor responsável encaminha o documento para o próximo destino. | O sistema atualiza a localização e o histórico de movimentação do documento. |Consulta à linha do tempo/histórico do documento mostrando o novo setor de destino. |
+| CA-03 | Dado que o documento chegou ao destino final. Quando o responsável conclui a última etapa administrativa. | O sistema altera o status do documento para "Concluído" e encerra o trâmite. | Status atualizado visível na listagem de protocolos finalizados. |
+| CA-04 | Dado que o usuário tenta tramitar um documento sem preencher o setor de destino. Quando aciona o botão de envio | O sistema bloqueia a ação e exibe um alerta de campo obrigatório pendente. | Alerta visual de erro na tela e o documento permanece no setor de origem. |
 
 ## 7. Validação e rastreabilidade
 

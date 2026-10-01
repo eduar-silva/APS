@@ -69,23 +69,3 @@
 | Validado por / data | |
 | Observações e decisões | |
 | Links relacionados | Issue, protótipo, caso de uso ou documento de origem. |
-
-## Exemplo breve (fictício)
-
-**Projeto:** Sistema de agendamento de atendimento acadêmico. **Objetivo:** permitir que estudantes reservem horários disponíveis. **Stakeholder:** estudante; entrevista em 24/09/2026. **REQ-001:** “Quero escolher um horário de atendimento pelo celular”. **Descrição:** O sistema deve permitir ao estudante autenticado reservar um horário disponível de atendimento. **RN-001:** um horário não pode receber mais de uma reserva ativa. **Prioridade:** Must have, pois a reserva é a função central. **CA-01:** dado um horário disponível, quando o estudante confirmar a reserva, então o sistema registra a reserva e retira o horário da lista de disponibilidade. **CA-02:** dado um horário já reservado, quando outro estudante tentar reservá-lo, então o sistema impede a duplicidade e apresenta uma mensagem clara.
-
-## Como organizar no GitHub
-
-1. No repositório do projeto, crie a pasta `docs/requisitos/`.
-2. Salve esta ficha preenchida como `docs/requisitos/ficha-elicitacao-REQ-001.md`. Crie um arquivo por requisito, alterando o ID de forma sequencial. Guarde a versão PDF de cada ficha na mesma pasta, se a entrega também exigir PDF.
-3. Pelo site do GitHub, use **Add file > Upload files** (ou crie/edite o Markdown com **Add file > Create new file**). Confirme os arquivos com uma mensagem de commit descritiva, como `docs: adiciona ficha de elicitação REQ-001`.
-4. Atualize o `README.md` na raiz do repositório com uma seção de documentação e o link relativo:
-
-```md
-## Documentação de requisitos
-
-- [Ficha de elicitação REQ-001](docs/requisitos/ficha-elicitacao-REQ-001.md)
-- [Versão para impressão (PDF)](docs/requisitos/ficha-elicitacao-REQ-001.pdf)
-```
-
-5. Confira no GitHub se os links abrem e se o ID do arquivo coincide com o ID registrado na ficha. Atualize a ficha após validação, preservando o histórico de commits.

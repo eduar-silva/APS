@@ -3,24 +3,23 @@
 **Curso:** Engenharia de Software  
 **Disciplina:** Análise e Projeto de Sistemas  
 **Instituição:** UDF Centro Universitário  
-**Grupo/integrantes:** ______________________________________________  
-**Turma:** ____________________  **Data:** ____/____/______  **Versão:** 1.0
+**Grupo/integrantes:** [Arthur Miguel Pinheiro](https://github.com/thurzxdev) | [Artur Miguel Monteiro](https://github.com/arturmm-s) | [Eduardo Brito](https://github.com/eduar-silva) | Marcos Guilherme | Daniel Gomes Lima 
 
-> Preencha uma ficha para cada requisito identificado. Registre a necessidade na linguagem do stakeholder e esclareça termos ambíguos antes de validar a ficha com ele.
+**Turma:** D2 - Engenharia de Software  **Data:** 30/09/2026  **Versão:** 1.0
 
 ## 1. Identificação do projeto
 
 | Campo | Preenchimento |
 |---|---|
-| Nome do projeto | |
-| Objetivo do projeto | Qual problema será resolvido e qual resultado se espera? |
-| Contexto e escopo | Que processo ou serviço será contemplado? |
+| Nome do projeto | Sistema de acolhida aos calouros da UDF |
+| Objetivo do projeto | O Sistema de Acolhida aos Calouros da UDF foi desenvolvido com o objetivo de facilitar a integração dos novos estudantes à vida acadêmica, oferecendo informações relevantes, suporte inicial e orientação sobre os principais serviços e recursos disponíveis na instituição. |
+| Contexto e escopo | O sistema permite que os calouros da UDF tenham acesso facilitado a informações sobre os campus, serviços disponíveis e situações comuns que podem ocorrer durante a rotina acadêmica. |
 
 ## 2. Stakeholder e fonte
 
 | Campo | Preenchimento |
 |---|---|
-| Stakeholder (nome ou papel) | |
+| Stakeholder (nome ou papel) | Alunos da UDF, principalmente os °calouros° |
 | Relação com o projeto | Usuário, cliente, gestor, especialista ou outro. |
 | Contato ou setor (se aplicável) | |
 | Técnica e data da elicitação | Entrevista, observação, questionário, oficina ou análise documental; data. |

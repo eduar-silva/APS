@@ -47,7 +47,7 @@
 
 ## 5. Prioridade
 
-**Classificação MoSCoW (marque uma):** [ ] Must have (essencial)  [X] Should have (importante)  [ ] Could have (desejável)  [ ] Won't have nesta versão (fora do escopo atual)
+**Classificação MoSCoW (marque uma):** [X] Must have (essencial)  [ ] Should have (importante)  [ ] Could have (desejável)  [ ] Won't have nesta versão (fora do escopo atual)
 
 **Justificativa da prioridade:** O requisito é indispensável e constitui o núcleo da solução, sendo fundamental para resolver diretamente o problema central de localização, orientação ou segurança dos estudantes. Sem ele, o sistema perde sua utilidade principal e não atinge o objetivo de eliminar as principais dificuldades enfrentadas pelos calouros no campus.
 

@@ -5,7 +5,7 @@ modelagens. Ferramentas Case de apoio ao desenho dos diagramas UML
 
 # Ficha de Requisitos — Aula 02
 
-## Análise e Projeto de Sistemas
+## Análise e Projeto de Sistema
 
 **Unidade:** II — Introdução à Análise e Projeto de Sistemas  
 **Atividade:** Transformação do levantamento do sistema em requisitos funcionais e não funcionais  

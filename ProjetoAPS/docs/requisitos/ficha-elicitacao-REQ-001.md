@@ -53,7 +53,6 @@
 
 ## 6. Critérios de aceitação
 
-Escreva condições verificáveis que permitam decidir se o requisito foi atendido.
 
 | ID | Dado/Quando | Então (resultado esperado) | Evidência ou forma de verificação |
 |---|---|---|---|

@@ -68,4 +68,4 @@
 | Situação | [X] Pendente de validação  [ ] Validado  [ ] Necessita revisão |
 | Validado por / data |Ainda não validado. A revisão por pares e a validação com o stakeholder estão pendentes. |
 | Observações e decisões | Requisito classificado como Must have e incluído na primeira versão (ordem 1). Pendências levantadas na revisão: definir o tempo máximo para confirmação de recebimento no setor de destino (RQ04) e as regras para documentos de trâmite prioritário (RF02). |
-| Links relacionados | Rastreabilidade: Rastreabilidade: N01 → ST01 → REQ-001 (RF01), relacionado a RF08, RQ01, RQ03, RQ04 e RQ05. |
+| Links relacionados | Rastreabilidade: Rastreabilidade: N01 → ST01 → REQ-001 (RF01), relacionado a RF08, RQ01, RQ03, RQ04 e RQ05. <br> [Repositório do Projeto](https://github.com/eduar-silva/APS/tree/main/ProjetoAPS) |

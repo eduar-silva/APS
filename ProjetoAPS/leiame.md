@@ -1,3 +1,4 @@
+
 # Sistema de Acolhida aos Calouros da UDF
 
 ## 📖 Descrição do Projeto
@@ -14,12 +15,12 @@ O **Sistema de Acolhida aos Calouros da UDF** foi desenvolvido com o objetivo de
 
 ### Principais funcionalidades:
 
-* Cadastro de calouros;
-* Consulta de informações institucionais;
-* Guia dos principais setores da universidade;
-* Calendário acadêmico;
-* Perguntas frequentes (FAQ);
-* Canal de comunicação para suporte.
+- Cadastro de calouros;
+- Consulta de informações institucionais;
+- Guia dos principais setores da universidade;
+- Calendário acadêmico;
+- Perguntas frequentes (FAQ);
+- Canal de comunicação para suporte.
 
 ---
 
@@ -29,33 +30,33 @@ O projeto foi desenvolvido para reduzir as dificuldades enfrentadas pelos estuda
 
 Os principais motivos para sua criação são:
 
-* Facilitar a adaptação dos novos alunos;
-* Centralizar informações importantes em um único ambiente;
-* Melhorar a comunicação entre instituição e estudantes;
-* Reduzir dúvidas recorrentes;
-* Promover uma experiência acadêmica mais acolhedora.
+- Facilitar a adaptação dos novos alunos;
+- Centralizar informações importantes em um único ambiente;
+- Melhorar a comunicação entre instituição e estudantes;
+- Reduzir dúvidas recorrentes;
+- Promover uma experiência acadêmica mais acolhedora.
 
 ---
 
 ## 👥 Who (Quem?)
 
+### Equipe de Desenvolvimento
 
-
-* Arthur Miguel - https://github.com/thurzxdev
-* Artur Miguel Monteiro - https://github.com/arturmm-s
-* Eduardo Brito - https://github.com/eduar-silva 
-* Marcos Guilherme - https://github.com/guima-Eng
-
+- [Arthur Miguel](https://github.com/thurzxdev)
+- [Artur Miguel Monteiro](https://github.com/arturmm-s)
+- [Eduardo Brito](https://github.com/eduar-silva)
+- [Marcos Guilherme](https://github.com/guima-Eng)
+- [Daniel Gomes Lima](https://github.com/DanielGomesSoftwer)
 ---
 
 ## 📍 Where (Onde será utilizado?)
 
 O sistema pode ser acessado por alunos da UDF em dispositivos conectados à internet, como:
 
-* Computadores;
-* Notebooks;
-* Tablets;
-* Smartphones.
+- Computadores;
+- Notebooks;
+- Tablets;
+- Smartphones.
 
 Seu uso ocorre tanto dentro do ambiente universitário quanto remotamente.
 
@@ -65,30 +66,41 @@ Seu uso ocorre tanto dentro do ambiente universitário quanto remotamente.
 
 O sistema pode ser utilizado durante todo o período acadêmico, com foco especial:
 
-* Antes do início das aulas;
-* Durante a semana de acolhimento;
-* Nos primeiros semestres do estudante;
-* Em momentos de consulta a informações institucionais.
+- Antes do início das aulas;
+- Durante a semana de acolhimento;
+- Nos primeiros semestres do estudante;
+- Em momentos de consulta a informações institucionais.
 
 ---
 
 # 🛠️ Tecnologias Utilizadas
 
-* 
-* 
-* 
-* 
+*As tecnologias utilizadas no desenvolvimento serão adicionadas conforme a evolução do projeto.*
+
 ---
 
 # 🚀 Objetivos
 
-* Melhorar a experiência dos calouros;
-* Facilitar o acesso à informação;
-* Incentivar a integração acadêmica;
-* Promover acolhimento e suporte aos novos estudantes.
+- Melhorar a experiência dos calouros;
+- Facilitar o acesso à informação;
+- Incentivar a integração acadêmica;
+- Promover acolhimento e suporte aos novos estudantes.
 
 ---
 
 # 📚 Conclusão
 
-O Sistema de Acolhida aos Calouros da UDF busca tornar a entrada na universidade mais simples, organizada e acolhedora, contribuindo para uma adaptação mais rápida e eficiente dos estudantes ao ambiente acadêmico.
+O **Sistema de Acolhida aos Calouros da UDF** busca tornar a entrada na universidade mais simples, organizada e acolhedora, contribuindo para uma adaptação mais rápida e eficiente dos estudantes ao ambiente acadêmico.
+
+---
+
+### 🎓 Informações Acadêmicas
+
+**Instituição:** Centro Universitário do Distrito Federal (UDF)  
+**Curso:** Engenharia de Software  
+**Disciplina:** Análise e Projeto de Sistemas  
+**Professora:** Kadidja Valéria Reginaldo de Oliveira  
+
+---
+
+**Projeto acadêmico desenvolvido para a disciplina de Análise e Projeto de Sistemas — UDF.**

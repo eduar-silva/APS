@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1840" height="1160" viewBox="0 0 1840 1160" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Diagrama UML de Objetos - Sistema de Acolhida aos Calouros da UDF</title>
+<desc id="descricao">Exemplo ilustrativo com objetos do estudante, turma, aula, sala, bloco, setor, administrador, comunicado e pergunta frequente, ligados por relacionamentos UML.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#111111">
+<text x="80" y="72" font-size="32" font-weight="bold">Diagrama de Objetos</text>
+<text x="80" y="107" font-size="20">Sistema de Acolhida aos Calouros da UDF</text>
+<line x1="80" y1="126" x2="1760" y2="126" stroke="#111" stroke-width="1.3"/>
+<line x1="375" y1="262" x2="530" y2="262" stroke="#222" stroke-width="1.8"/>
+<text x="452" y="250" text-anchor="middle" font-size="17">publica</text>
+<line x1="835" y1="262" x2="990" y2="262" stroke="#222" stroke-width="1.8"/>
+<text x="912" y="250" text-anchor="middle" font-size="17">recebe</text>
+<line x1="1295" y1="262" x2="1430" y2="262" stroke="#222" stroke-width="1.8"/>
+<text x="1362" y="250" text-anchor="middle" font-size="17">consulta</text>
+<line x1="214" y1="346" x2="214" y2="545" stroke="#222" stroke-width="1.8"/>
+<text x="231" y="460" text-anchor="start" font-size="17">gerencia</text>
+<line x1="1141" y1="346" x2="1141" y2="545" stroke="#222" stroke-width="1.8"/>
+<text x="1155" y="461" text-anchor="start" font-size="17">matriculado em</text>
+<line x1="990" y1="635" x2="835" y2="635" stroke="#222" stroke-width="1.8"/>
+<text x="913" y="621" text-anchor="middle" font-size="17">tem aula</text>
+<line x1="530" y1="635" x2="375" y2="635" stroke="#222" stroke-width="1.8"/>
+<text x="452" y="621" text-anchor="middle" font-size="17">ocorre em</text>
+<line x1="230" y1="721" x2="230" y2="865" stroke="#222" stroke-width="1.8"/>
+<text x="247" y="801" text-anchor="start" font-size="17">fica no</text>
+<line x1="375" y1="944" x2="530" y2="944" stroke="#222" stroke-width="1.8"/>
+<text x="452" y="930" text-anchor="middle" font-size="17">abriga</text>
+<rect x="90" y="180" width="285" height="166" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="90" y1="233" x2="375" y2="233" stroke="#222" stroke-width="1.4"/>
+<text x="232.5" y="215" text-anchor="middle" font-size="20" font-weight="normal">admin01:Administrador</text>
+<line x1="129.671875" y1="219" x2="335.328125" y2="219" stroke="#111" stroke-width="1"/>
+<text x="106" y="260" font-size="17.4">perfil = &quot;Administrador&quot;</text>
+<text x="106" y="285" font-size="17.4">autenticado = verdadeiro</text>
+<rect x="530" y="180" width="305" height="166" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="530" y1="233" x2="835" y2="233" stroke="#222" stroke-width="1.4"/>
+<text x="682.5" y="215" text-anchor="middle" font-size="20" font-weight="normal">aviso01:Comunicado</text>
+<line x1="589.109375" y1="219" x2="775.890625" y2="219" stroke="#111" stroke-width="1"/>
+<text x="546" y="260" font-size="17.4">assunto = &quot;Alteração de sala&quot;</text>
+<text x="546" y="285" font-size="17.4">situação = &quot;Publicado&quot;</text>
+<rect x="990" y="180" width="305" height="166" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="990" y1="233" x2="1295" y2="233" stroke="#222" stroke-width="1.4"/>
+<text x="1142.5" y="215" text-anchor="middle" font-size="20" font-weight="normal">calouro01:Estudante</text>
+<line x1="1050.75" y1="219" x2="1234.25" y2="219" stroke="#111" stroke-width="1"/>
+<text x="1006" y="260" font-size="17.4">curso = &quot;Engenharia de Software&quot;</text>
+<text x="1006" y="285" font-size="17.4">período = &quot;1º semestre&quot;</text>
+<rect x="1430" y="180" width="320" height="166" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="1430" y1="233" x2="1750" y2="233" stroke="#222" stroke-width="1.4"/>
+<text x="1590.0" y="215" text-anchor="middle" font-size="20" font-weight="normal">duvida01:PerguntaFrequente</text>
+<line x1="1460.4375" y1="219" x2="1719.5625" y2="219" stroke="#111" stroke-width="1"/>
+<text x="1446" y="260" font-size="17.4">tema = &quot;Localização de salas&quot;</text>
+<text x="1446" y="285" font-size="17.4">resposta = &quot;Consultar o mapa&quot;</text>
+<rect x="90" y="545" width="285" height="176" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="90" y1="598" x2="375" y2="598" stroke="#222" stroke-width="1.4"/>
+<text x="232.5" y="580" text-anchor="middle" font-size="20" font-weight="normal">sala101:Sala</text>
+<line x1="174.671875" y1="584" x2="290.328125" y2="584" stroke="#111" stroke-width="1"/>
+<text x="106" y="625" font-size="17.4">identificador = &quot;101&quot;</text>
+<text x="106" y="650" font-size="17.4">tipo = &quot;Sala de aula&quot;</text>
+<text x="106" y="675" font-size="17.4">situação = &quot;Ativa&quot;</text>
+<rect x="530" y="545" width="305" height="176" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="530" y1="598" x2="835" y2="598" stroke="#222" stroke-width="1.4"/>
+<text x="682.5" y="580" text-anchor="middle" font-size="20" font-weight="normal">aula01:Aula</text>
+<line x1="629.671875" y1="584" x2="735.328125" y2="584" stroke="#111" stroke-width="1"/>
+<text x="546" y="625" font-size="17.4">disciplina = &quot;Análise e Projeto&quot;</text>
+<text x="546" y="650" font-size="17.4">             &quot;de Sistemas&quot;</text>
+<text x="546" y="675" font-size="17.4">dia = &quot;Segunda-feira&quot;</text>
+<text x="546" y="700" font-size="17.4">horário = &quot;19h&quot;</text>
+<rect x="990" y="545" width="305" height="176" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="990" y1="598" x2="1295" y2="598" stroke="#222" stroke-width="1.4"/>
+<text x="1142.5" y="580" text-anchor="middle" font-size="20" font-weight="normal">turma01:Turma</text>
+<line x1="1074.5078125" y1="584" x2="1210.4921875" y2="584" stroke="#111" stroke-width="1"/>
+<text x="1006" y="625" font-size="17.4">código = &quot;ES-01&quot;</text>
+<text x="1006" y="650" font-size="17.4">turno = &quot;Noturno&quot;</text>
+<text x="1006" y="675" font-size="17.4">semestre = &quot;2025.2&quot;</text>
+<rect x="90" y="865" width="285" height="156" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="90" y1="918" x2="375" y2="918" stroke="#222" stroke-width="1.4"/>
+<text x="232.5" y="900" text-anchor="middle" font-size="20" font-weight="normal">blocoA:Bloco</text>
+<line x1="174.125" y1="904" x2="290.875" y2="904" stroke="#111" stroke-width="1"/>
+<text x="106" y="945" font-size="17.4">identificação = &quot;A&quot;</text>
+<text x="106" y="970" font-size="17.4">campus = &quot;UDF&quot;</text>
+<rect x="530" y="865" width="305" height="156" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="530" y1="918" x2="835" y2="918" stroke="#222" stroke-width="1.4"/>
+<text x="682.5" y="900" text-anchor="middle" font-size="20" font-weight="normal">setor01:Setor</text>
+<line x1="622.453125" y1="904" x2="742.546875" y2="904" stroke="#111" stroke-width="1"/>
+<text x="546" y="945" font-size="17.4">nome = &quot;Secretaria acadêmica&quot;</text>
+<text x="546" y="970" font-size="17.4">atendimento = &quot;Presencial&quot;</text>
+<line x1="80" y1="1067" x2="1760" y2="1067" stroke="#777" stroke-width="1"/>
+<text x="80" y="1094" font-size="17">Exemplo ilustrativo: os nomes, horários, salas e vínculos representam uma situação fictícia do sistema.</text>
+<text x="80" y="1123" font-size="17">Notação UML: objetos com nomes sublinhados, atributos com valores e ligações entre instâncias.</text>
+</g></svg>

@@ -3,7 +3,7 @@
 **Curso:** Engenharia de Software  
 **Disciplina:** Análise e Projeto de Sistemas  
 **Instituição:** UDF Centro Universitário  
-**Grupo/integrantes:** [Arthur Miguel Pinheiro](https://github.com/thurzxdev) | [Artur Miguel Monteiro](https://github.com/arturmm-s) | [Eduardo Brito](https://github.com/eduar-silva) | Marcos Guilherme | Daniel Gomes Lima 
+**Grupo/integrantes:** [Arthur Miguel Pinheiro](https://github.com/thurzxdev) | [Artur Miguel Monteiro](https://github.com/arturmm-s) | [Eduardo Brito](https://github.com/eduar-silva) | [Marcos Guilherme](https://github.com/guima-Eng)| [Daniel Gomes Lima](https://github.com/DanielGomesSoftwer)
 
 **Turma:** D2 - Engenharia de Software  **Data:** 27/09/2026  **Versão:** 1.0
 

@@ -1,5 +1,5 @@
 # MVP — Sistema de Acolhida aos Calouros da UDF
-INTEGRANTES:
+INTEGRANTES:Marcos Guilherme Deodato Franco
 ## Visualização
 
 Abra `ProjetoAPS/index.html` em qualquer navegador moderno.

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sistema de acolhida aos calouros da UDF">
+  <title>Bem-vindo à UDF | Acolhida</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Página inicial">
+      <span class="brand-mark" aria-hidden="true">UDF</span>
+      <span><strong>Acolhida</strong><small>Centro Universitário</small></span>
+    </a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#busca">Buscar local</a>
+      <a href="#setores">Setores</a>
+      <a href="#faq">Dúvidas</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <span class="eyebrow">Você não precisa descobrir tudo sozinho</span>
+        <h1>Seu primeiro passo pela UDF começa aqui.</h1>
+        <p>Encontre setores, consulte horários e tire suas dúvidas em poucos segundos.</p>
+        <form class="search" id="searchForm" role="search">
+          <label class="sr-only" for="siteSearch">O que você procura?</label>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m1.35-5.15a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"/></svg>
+          <input id="siteSearch" type="search" placeholder="Ex.: Secretaria, Sala 204, Biblioteca" autocomplete="off">
+          <button type="submit">Buscar</button>
+        </form>
+      </div>
+      <div class="hero-art" aria-label="Ilustração do campus UDF">
+        <div class="sun"></div>
+        <div class="building building-one"><span>A</span></div>
+        <div class="building building-two"><span>B</span></div>
+        <div class="building building-three"><span>C</span></div>
+        <div class="path"></div>
+        <div class="tree tree-one"></div>
+        <div class="tree tree-two"></div>
+        <div class="pin"><span>Você está aqui</span></div>
+      </div>
+    </section>
+
+    <section class="quick" id="busca" aria-labelledby="busca-title">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Comece por aqui</span>
+          <h2 id="busca-title">O que você precisa encontrar?</h2>
+        </div>
+        <p id="searchCount">5 locais disponíveis</p>
+      </div>
+
+      <div class="location-grid" id="locationGrid">
+        <article class="location-card" data-name="secretaria financeiro tesouraria bloco a" data-location="Bloco A · 1º andar">
+          <span class="card-icon">01</span>
+          <div><h3>Secretaria Acadêmica</h3><p>Matrículas, documentos e solicitações</p><small>Seg–Sex · 8h às 18h</small></div>
+          <button type="button" aria-label="Ver detalhes da Secretaria Acadêmica">↗</button>
+        </article>
+        <article class="location-card" data-name="biblioteca estudo livros bloco b" data-location="Bloco B · Térreo">
+          <span class="card-icon">02</span>
+          <div><h3>Biblioteca</h3><p>Acervo, empréstimos e área de estudo</p><small>Seg–Sex · 7h30 às 21h</small></div>
+          <button type="button" aria-label="Ver detalhes da Biblioteca">↗</button>
+        </article>
+        <article class="location-card" data-name="coordenacao engenharia sala 204 bloco c" data-location="Bloco C · 2º andar · Sala 204">
+          <span class="card-icon">03</span>
+          <div><h3>Coordenação</h3><p>Orientação acadêmica e currículo</p><small>Seg–Sex · 9h às 17h</small></div>
+          <button type="button" aria-label="Ver detalhes da Coordenação">↗</button>
+        </article>
+        <article class="location-card" data-name="laboratorio informatica laboratorio 301 bloco c" data-location="Bloco C · 3º andar">
+          <span class="card-icon">04</span>
+          <div><h3>Laboratórios</h3><p>Ambientes práticos e equipamentos</p><small>Seg–Sex · Conforme a disciplina</small></div>
+          <button type="button" aria-label="Ver detalhes dos Laboratórios">↗</button>
+        </article>
+        <article class="location-card" data-name="cantina alimentacao cafe bloco a" data-location="Bloco A · Área externa">
+          <span class="card-icon">05</span>
+          <div><h3>Cantina</h3><p>Lanches, refeições e convivência</p><small>Seg–Sex · 7h às 20h</small></div>
+          <button type="button" aria-label="Ver detalhes da Cantina">↗</button>
+        </article>
+      </div>
+
+      <div class="search-result" id="searchResult" hidden>
+        <div>
+          <span class="result-label">Local encontrado</span>
+          <h3 id="resultTitle"></h3>
+          <p id="resultLocation"></p>
+        </div>
+        <button type="button" id="closeResult">Fechar</button>
+      </div>
+      <p class="empty-state" id="emptyState" hidden>Nenhum local encontrado. Tente pesquisar por “biblioteca” ou “secretaria”.</p>
+    </section>
+
+    <section class="sectors" id="setores" aria-labelledby="setores-title">
+      <div class="section-heading light">
+        <div>
+          <span class="eyebrow">Guia do campus</span>
+          <h2 id="setores-title">Setores principais</h2>
+        </div>
+      </div>
+      <div class="sector-list">
+        <button type="button" data-search="secretaria">Secretaria <span>1º andar · A</span></button>
+        <button type="button" data-search="biblioteca">Biblioteca <span>Térreo · B</span></button>
+        <button type="button" data-search="coordenacao">Coordenação <span>2º andar · C</span></button>
+        <button type="button" data-search="laboratorio">Laboratórios <span>3º andar · C</span></button>
+      </div>
+    </section>
+
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <div class="faq-heading">
+        <span class="eyebrow">Dúvidas frequentes</span>
+        <h2 id="faq-title">Perguntas que todo calouro faz</h2>
+      </div>
+      <div class="accordion">
+        <details>
+          <summary>Como faço minha matrícula ou rematrícula?</summary>
+          <p>Consulte os documentos solicitados no setor da Secretaria Acadêmica e confirme os prazos no calendário institucional.</p>
+        </details>
+        <details>
+          <summary>Onde retiro minha carteirinha estudantil?</summary>
+          <p>As orientações para emissão da carteirinha são disponibilizadas pela Secretaria Acadêmica após a confirmação da matrícula.</p>
+        </details>
+        <details>
+          <summary>Como acesso o Wi-Fi do campus?</summary>
+          <p>Utilize seu usuário institucional ou procure a equipe de suporte em sua coordenação para ativar o acesso.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Acolhida UDF</strong></p>
+    <p>Sistema acadêmico desenvolvido pelo grupo da disciplina de Análise e Projeto de Sistemas.</p>
+  </footer>
+
+  <script>
+    const form = document.getElementById('searchForm');
+    const input = document.getElementById('siteSearch');
+    const cards = [...document.querySelectorAll('.location-card')];
+    const count = document.getElementById('searchCount');
+    const empty = document.getElementById('emptyState');
+    const result = document.getElementById('searchResult');
+
+    function searchLocations(term) {
+      const query = term.trim().toLowerCase();
+      let found = 0;
+
+      cards.forEach(card => {
+        const matches = !query || card.dataset.name.includes(query);
+        card.hidden = !matches;
+        if (matches) found++;
+      });
+
+      count.textContent = `${found} ${found === 1 ? 'local encontrado' : 'locais disponíveis'}`;
+      empty.hidden = found !== 0;
+
+      if (query && found === 1) {
+        const card = cards.find(item => !item.hidden);
+        showResult(card);
+      } else {
+        result.hidden = true;
+      }
+    }
+
+    function showResult(card) {
+      document.getElementById('resultTitle').textContent = card.querySelector('h3').textContent;
+      document.getElementById('resultLocation').textContent = card.dataset.location;
+      result.hidden = false;
+    }
+
+    form.addEventListener('submit', event => {
+      event.preventEvent;
+      searchLocations(input.value);
+      document.getElementById('busca').scrollIntoView({ behavior: 'smooth' });
+    });
+
+    input.addEventListener('input', () => searchLocations(input.value));
+
+    cards.forEach(card => card.querySelector('button').addEventListener('click', () => showResult(card)));
+
+    document.getElementById('closeResult').addEventListener('click', () => result.hidden = true);
+
+    document.querySelectorAll('.sector-list button').forEach(button => {
+      button.addEventListener('click', () => {
+        input.value = button.dataset.search;
+        searchLocations(button.dataset.search);
+        document.getElementById('busca').scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>

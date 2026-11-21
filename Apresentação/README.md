@@ -79,7 +79,7 @@ O protótipo web apresenta recursos que ajudam o estudante a localizar informaç
 
 | Material | Onde encontrar |
 | :--- | :--- |
-| **Slide em PowerPoint** | [AcolhidaCalourosUDF.pptx](https://github.com/eduar-silva/APS/tree/main/Apresenta%C3%A7%C3%A3o) |
+| **Slide em PowerPoint** | [AcolhidaCalourosUDF.pptx](https://github.com/eduar-silva/APS/blob/main/Apresenta%C3%A7%C3%A3o/Apresentacao_Sistema_Acolhida_de_Calouros.pptx) |
 | **Visão Geral do Projeto** | [Ler a proposta](https://github.com/eduar-silva/APS/blob/main/ProjetoAPS/leiame.md) |
 | **Requisitos** | [Ficha de elicitação](https://github.com/eduar-silva/APS/blob/main/ProjetoAPS/docs/requisitos/ficha-elicitacao-REQ-001.md) |
 | **Priorização MoSCoW** | [Consultar priorização](https://github.com/eduar-silva/APS/blob/main/ProjetoAPS/MoSCow.md) |

@@ -8,7 +8,7 @@
 
 Projeto acadêmico de Engenharia de Software · Análise e Projeto de Sistemas · UDF
 
-[**🌐 Acessar o protótipo**](https://eduar-silva.github.io/APS/) · [**💻 Consultar a interface**](docs/index.html) · [**📁 Explorar o projeto**](ProjetoAPS/)
+[**🌐 Acessar o protótipo**](https://eduar-silva.github.io/APS/) · [**💻 Consultar a interface**](https://github.com/eduar-silva/APS/blob/main/docs/index.html) · [**📁 Explorar o projeto**](https://github.com/eduar-silva/APS/tree/main/ProjetoAPS)
 
 </div>
 

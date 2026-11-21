@@ -135,8 +135,6 @@ O protótipo é uma demonstração da proposta acadêmica; **não representa um 
 
 <div align="center">
 
-<hr>
-
 **Acolhida UDF**
 
 *Um começo mais simples para quem está chegando.*

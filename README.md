@@ -32,5 +32,7 @@
 ### Motivação:
 Este projeto surge da necessidade de sanar dúvidas de calouros sobre a universidade, desde localização até financeiro, além de visar a demonstração da aplicação prática de conceitos teóricos aprendidos em sala de aula.
 
+---
+
 ### Autor: 
 Eduardo Brito da Silva - Estudante de Engenharia de Software
